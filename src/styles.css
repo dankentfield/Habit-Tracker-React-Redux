@@ -13,12 +13,14 @@ body{
     width: 100%;
     padding: 0px 0px 0px 20px;
     background-color: #4CAF50;
+    position: fixed;
+    top: 0;
     
 }
 
 .div-main-content {
     margin: 20px;
-    padding: 10px;
+    padding: 67px 10px 10px 10px;
     display: grid;
     justify-content: center;
 }
@@ -57,4 +59,15 @@ input {
     background-color: white;
     color: #B350AF;
     padding: 15px;
+    cursor: pointer;
+  }
+
+.habit-list-item {
+    border-style: solid;
+    border: #B350AF;
+    padding: 10px;
+  }
+
+  .habit-list-item-title {
+    font-weight: bold;
   }
