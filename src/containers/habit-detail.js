@@ -7,7 +7,7 @@ class HabitDetail extends Component {
             <div>
                 {console.log("Habit detail props output: ", this.props.habit)}
                 {/* The below line is returning a JS object - You need to access the properties of the object - . notation isn't working */}
-                <h1>{JSON.stringify(this.props.habit)}</h1>
+                <h2>{this.props.habit.why}</h2>
             
                 
             </div>
